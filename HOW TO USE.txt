@@ -1,0 +1,157 @@
+Hi there, thanks for downloading my Auto Biome Joiner for Sol's RNG!
+
+This auto-joiner works on any roblox game, not just Sol's RNG, but it is primarily used for Sol's RNG.
+
+What This Macro Does:
+- Constantly listens to discord channels for specific keywords (ex. Dreamspace, Glitch, Jester) as well as if they contain a real Roblox /share or privateServerCode= link. Once it has hit a keyword, it will automatically join the server.
+
+What This Macro Isn't:
+- A Roblox Exploit, Executor, or any cheat whatsoever.
+
+Here's how you can set it up:
+
+1. Extract the ZIP
+
+2. Run VilisBiomeForward.exe by double clicking on it
+
+3. A UI should appear with 4 categories:
+CHANNELS
+KEYWORDS
+SECURITY
+PENDING
+
+
+# CHANNELS:
+1. Go to any Discord Server (ex. Sol's RNG), and right-click on a "biomes" or "merchants" channel, you should see a menu of options, Press "Copy Channel ID".
+
+2. Press on the Empty Place and press Ctrl+V to paste the ID, and then click on the [+] button.
+
+- This should add the channel, you should do this for every biomes/merchants channel you want to track.
+
+
+# KEYWORDS:
+Just write all the keywords (such as Biomes or Merchants) you want to track. An example list is:
+Dreamspace
+Dream
+Glitch
+Glitched
+Cyberspace
+Cyber
+Jester
+Oblivion
+Heavenly Potion
+Hp
+Obli
+Heavenly
+Jester
+Singularity
+Garg
+Garga
+Gargantua
+
+IMPORTANT: There is a cooldown that you can set. Only priority keywords will trigger this cooldown, what it does is it stops tracking until the cooldown is over. This prevents from joining servers with Jester while you are in Glitch for example.
+
+
+# SECURITY:
+The most important part is this, Follow the tutorials carefully below.
+
+HOW TO GET YOUR DISCORD TOKEN:
+1. Open Discord
+2. Press the Cogwheel icon (Settings)
+3. Scroll to the bottom and press Developer
+4. Check `Developer Mode` ON
+5. Go in any DM and press Ctrl+Shift+I at the same time.
+- This should open the Discord Console.
+
+6. At the top, there are channels, press Network (if you don't see it, press the 2 arrows at the top)
+
+7. Under `Name` you should see `science`, press on it once.
+
+8. You'll see a bunch of numbers on the right, scroll down until you see `Request Headers` and below it `authentication`.
+
+9. On the right of `authentication`, you should see a string of letters, numbers and symbols such as MTJF9OenmqUUE9RJReOewbr.WEOfweor..... etc
+
+10. Select all of it and copy with Ctrl+C
+
+11. Paste it into the Macro's `Discord Token` box.
+
+
+HOW TO GET YOUR ROBLOX COOKIE
+1. Open your Browser
+2. Navigate to roblox.com
+3. Once you've logged in, press F12 (or FN + F12 on laptops)
+
+4. The same menu should open, on the top press `Applications` (if you don't see it, press the 2 arrows at the top)
+
+5. You will see a menu of tabs, press `COOKIES` and then select "https://www.roblox.com"
+
+6. On the right you should see .ROBLOSECURI....., press on it.
+
+7. On the very right you should see a very long string that starts with _WARNING_DO_NOT_SHARE......
+
+8. Copy the entire string and paste it into the .ROBLOSECURITY cookie box.
+
+^ Make sure you don't miss a letter.
+
+
+*OPTIONAL* HOW TO GET A WEBHOOK URL:
+1. Open Discord
+2. Make a Discord Server (can be anything)
+3. Navigate to Settings
+4. Press `Integrations`
+5. Press `Webhooks`
+6. Press `New Webhook`
+7. Press `Copy Webhook URL`
+8. Paste it into the Webhook URL box.
+
+^ The webhook displays data such as: Time to join, Keyword Triggered, Total joins, Channel, and Server Link.
+
+
+Now you have completely set up your auto joining macro! But before you start it, there are a few settings that you should look at!
+
+In SECURITY, at the bottom there are options such as:
+Auto-Join
+Alert Sound
+AI Voice
+Force Rejoin
+Multi-Instance (broken)
+
+
+If you disable Auto-Join, all the detected servers will go into the PENDING tab (there will be a button for you to click that will join them)
+
+AI Voice:
+If you enable AI Voice, when a keyword has hit, instead of playing a notification sound, it will instead say the word.
+
+For example if it joins a "Jester" server, it will say Jester.
+
+Force Rejoin: This is better to be ON if you are playing a roblox game instead of staying in the home page.
+
+Alert Sound: Plays a notification sound when a server has been found.
+
+HOW TO SWITCH YOUR NOTIFICATION SOUND:
+1. Go to Youtube and find an SFX you want to switch it to.
+2. Download the SFX (using Youtube To MP3 converter sites)
+3. Delete the current alert.wav
+4. Put the SFX in the folder, and name it alert.wav
+
+
+There are also 3 buttons on the bottom of the macro,
+Open Logs
+Import Config
+Export Config
+
+They are self-explanatory.
+
+DISCLAIMER: THIS MACRO IS NOT MALWARE, A VIRUS, OR ANY FORM OF MALICIOUS SOFTWARE. IT DOES NOT POSE A THREAT TO YOUR COMPUTER AND IS NOT INTENDED FOR ANY ILLEGAL USE. ALL METHODS USED TO ACCESS Roblox SERVERS ARE LEGITIMATE WITHIN THE SCOPE OF ITS FUNCTIONALITY.
+
+DISCLAIMER 2: DO NOT SHARE YOUR ROBLOX COOKIE, DISCORD TOKEN, OR MACRO CONFIG WITH ANYONE. THEY WILL HAVE ACCESS TO YOUR DISCORD ACCOUNT, YOUR ROBLOX ACCOUNT AND ALL YOUR ROBUX!
+
+~ you can drop the macro in virustotal.net and it will show 0/70 
+
+~ this macro uses 0% of your PC's CPU while it's not active, and when it is active (for seconds), it uses 0.1%.
+
+You can also join the discord server: https://discord.gg/eqDrhfpn96
+If you have any problems you can add me on discord: @deathcha1n
+
+Thanks for using my services and happy biome hunting! <3 
+- vili
